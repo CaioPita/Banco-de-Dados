@@ -1,14 +1,18 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.1.0">
   <diagram name="Página-1" id="MvrbzyDox4Wt_1tos2_W">
-    <mxGraphModel dx="838" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="838" dy="1618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kXjoKvxsPi3jEmVqvRIR-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kXjoKvxsPi3jEmVqvRIR-17" target="kXjoKvxsPi3jEmVqvRIR-27">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="5" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="kXjoKvxsPi3jEmVqvRIR-17" value="Pagamentos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="-30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kXjoKvxsPi3jEmVqvRIR-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kXjoKvxsPi3jEmVqvRIR-18">
           <mxGeometry relative="1" as="geometry">
@@ -28,7 +32,7 @@
           <mxGeometry x="120" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kXjoKvxsPi3jEmVqvRIR-27" value="Crédito&lt;div&gt;Débito&lt;/div&gt;&lt;div&gt;Pix&lt;/div&gt;&lt;div&gt;PK-Id do pagamento&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="240" width="130" height="70" as="geometry" />
+          <mxGeometry x="710" y="-30" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="kXjoKvxsPi3jEmVqvRIR-28" value="Nome do produto&lt;div&gt;Quantidade de produtos&lt;/div&gt;&lt;div&gt;PK-Código do produto&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="240" width="120" height="70" as="geometry" />
@@ -60,13 +64,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kXjoKvxsPi3jEmVqvRIR-41" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;entryX=0.642;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.358;exitY=-0.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kXjoKvxsPi3jEmVqvRIR-18" target="kXjoKvxsPi3jEmVqvRIR-17">
+        <mxCell id="kXjoKvxsPi3jEmVqvRIR-43" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=0;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="365.48" y="24.020000000000003" as="sourcePoint" />
-            <mxPoint x="734.52" y="20.00000000000002" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="435.48" y="-65.97999999999999" />
-            </Array>
+            <mxPoint x="345" y="80" as="sourcePoint" />
+            <mxPoint x="290" y="-10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
