@@ -1,37 +1,35 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.1.0">
   <diagram name="Página-1" id="MvrbzyDox4Wt_1tos2_W">
-    <mxGraphModel dx="1114" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="838" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0uRsTqXk29aRq7u2UOMi-16" value="Categorias" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="45" y="320" width="120" height="60" as="geometry" />
+        <mxCell id="kXjoKvxsPi3jEmVqvRIR-2" value="nome&lt;div&gt;idade&lt;/div&gt;&lt;div&gt;cpf&lt;/div&gt;&lt;div&gt;endereço&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uUS1GyN8y_ZzAwnWzNDL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0uRsTqXk29aRq7u2UOMi-17" target="0uRsTqXk29aRq7u2UOMi-16" edge="1">
+        <mxCell id="kXjoKvxsPi3jEmVqvRIR-3" value="data_retirada&lt;div&gt;data_devolução&lt;/div&gt;&lt;div&gt;taxas_poratraso&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kXjoKvxsPi3jEmVqvRIR-4" value="Categorias&lt;div&gt;ano_lançamento&lt;/div&gt;&lt;div&gt;nome_autor&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kXjoKvxsPi3jEmVqvRIR-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kXjoKvxsPi3jEmVqvRIR-6" target="kXjoKvxsPi3jEmVqvRIR-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0uRsTqXk29aRq7u2UOMi-17" value="Livros" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="170" width="90" height="60" as="geometry" />
+        <mxCell id="kXjoKvxsPi3jEmVqvRIR-6" value="Usuários" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bW0DZOwITRokeqs0o5qU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0uRsTqXk29aRq7u2UOMi-22" target="uUS1GyN8y_ZzAwnWzNDL-1">
+        <mxCell id="kXjoKvxsPi3jEmVqvRIR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kXjoKvxsPi3jEmVqvRIR-7" target="kXjoKvxsPi3jEmVqvRIR-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0uRsTqXk29aRq7u2UOMi-22" value="Usuários" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="160" width="120" height="60" as="geometry" />
+        <mxCell id="kXjoKvxsPi3jEmVqvRIR-7" value="Histórico de empréstimo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0uRsTqXk29aRq7u2UOMi-36" value="Histórico de empréstimo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="160" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uUS1GyN8y_ZzAwnWzNDL-1" value="Biblioteca" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uUS1GyN8y_ZzAwnWzNDL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="uUS1GyN8y_ZzAwnWzNDL-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="93" y="160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uUS1GyN8y_ZzAwnWzNDL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.65;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="uUS1GyN8y_ZzAwnWzNDL-1" target="0uRsTqXk29aRq7u2UOMi-36" edge="1">
+        <mxCell id="kXjoKvxsPi3jEmVqvRIR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kXjoKvxsPi3jEmVqvRIR-8" target="kXjoKvxsPi3jEmVqvRIR-4">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kXjoKvxsPi3jEmVqvRIR-8" value="Livros" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
